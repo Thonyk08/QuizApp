@@ -38,6 +38,7 @@ namespace QuizApp
 
         public void StartTheQuiz()
         {
+            timeLabel.BackColor = Color.Green;
 
             //reset checkboxes to default value
             sumCheck.Checked = differenceCheck.Checked = productCheck.Checked
